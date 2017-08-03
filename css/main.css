@@ -2,35 +2,67 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing:border-box;
+	color: #fff;
+	font-family: "微软雅黑";
 }
-ul li{
-	list-style: none;
-}
-a{
+a {
 	text-decoration: none;
 }
-html{
+#banner{
+	height: 700px;
+	background: #777;
+}
+nav {
+	height: 50px;
+	background: #444;
+	line-height: 50px;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	float: right;
+	margin-right: 20px;
+}
+nav ul li a{
+	display: inline-block;
+	height: inherit;
+	line-height: inherit;
+}
+nav .logo {
+	float: left;
+	letter-spacing: 2px;
+	line-height: inherit;
+	font-size: 20px;
+	color:#eee;
+	font-weight: 700;
+	margin-left: 10px;
+}
+#banner .inner{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+}
+.inner button{
+	margin-top: 20px;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 0.5em;
+	background-color: #99f;
+
 
 }
-body{
-	font-size: 14px;
-	font-family: "微软雅黑";
-	background-color:#87CEEB;
-	height: 100%;
+.inner h2{
+	border-top: 1px #fff solid;
+	border-bottom: 1px #fff solid;
+	padding: 1.5em;
 }
-.page{
-	text-align: center;
-	width: 80%;
-	margin: 0 auto;
-}
-.main{
-}
-.input_content{
-	padding: 50px;
-}
-.input_text input{
-	margin-bottom: 25px;
-	width: 200px;
-	height: 25px;
+.inner p{
+	line-height: 30px;
+	margin-top: 20px;
 }
