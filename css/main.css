@@ -1,4 +1,3 @@
-@charset "UTF-8";
 *{
 	margin: 0;
 	padding: 0;
@@ -7,6 +6,19 @@
 }
 a {
 	text-decoration: none;
+}
+p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+h1{
+	font-size: 36px;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 24px;
 }
 #banner{
 	height: 700px;
@@ -57,12 +69,95 @@ nav .logo {
 
 
 }
+.hr{
+	width: 300px;
+	height: 2px;
+	background-color: #fff;
+}
 .inner h2{
-	border-top: 1px #fff solid;
-	border-bottom: 1px #fff solid;
 	padding: 1.5em;
 }
 .inner p{
 	line-height: 30px;
 	margin-top: 20px;
+}
+.intro_section{
+	height: 500px;
+	background-color: #84da0d;
+	text-align: center;
+}
+.intro_section .wrapper{
+	position: relative;
+	top: 100px;
+}
+.wrapper{
+	margin: 0 auto;
+	max-width: 1080px;
+}
+.wrapper h2{
+}
+.intro_section .wrapper p{
+	margin-top: 50px;
+}
+.intro_nav{
+	margin-top: 77px;
+}
+.intro_nav span{
+	display: inline-block;
+	width:100px;
+	height: 100px;
+	background-color: #666;
+	transform:rotate(45deg);
+	margin: 50px
+}
+.interest_section{
+	background: #352d2d;
+}
+.interest_img{
+	width: 45%;
+	height:400px;
+}
+.interest_img img{
+	width: 100%;
+	height:400px;
+}
+.interest_inner > div{
+	float: left;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.interesting_actical{
+	width: 55%;
+	text-align: center;
+	position: relative;
+	top: 100px;
+
+}
+.interesting_actical > div{
+	margin: 0 auto;
+	padding: 10px 80px;
+}
+.sub_header{
+	font-size: 20px;
+}
+.interest_inner:nth-child(odd){
+	background-color: rgba(0,0,0,0.5);
+}
+.skill_section{
+	background: #776cbd;
+	padding: 80px;
+	text-align: center;
+}
+.header_wrapper{
+	text-align: center;
+}
+.card{
+	min-height: 300px;
+	border: #fff 1px solid;
+	max-width: 400px;
+	float: left;
+	margin: 0 auto;
 }
