@@ -20,17 +20,17 @@ h2{
 h3{
 	font-size: 24px;
 }
+ul{
+	list-style: none;
+}
 #banner{
 	height: 700px;
-	background: #777;
+	background-color: rgba(0,0,0,0.2);
 }
 nav {
 	height: 50px;
 	background: #444;
 	line-height: 50px;
-}
-nav ul{
-	list-style: none;
 }
 nav ul li{
 	display: inline-block;
@@ -100,7 +100,7 @@ nav .logo {
 	margin-top: 50px;
 }
 .intro_nav{
-	margin-top: 77px;
+	margin-top: 40px;
 }
 .intro_nav span{
 	display: inline-block;
@@ -142,6 +142,7 @@ nav .logo {
 }
 .sub_header{
 	font-size: 20px;
+	margin:30px;
 }
 .interest_inner:nth-child(odd){
 	background-color: rgba(0,0,0,0.5);
@@ -149,15 +150,82 @@ nav .logo {
 .skill_section{
 	background: #776cbd;
 	padding: 80px;
-	text-align: center;
 }
 .header_wrapper{
 	text-align: center;
+	margin-bottom: 50px;
 }
 .card{
 	min-height: 300px;
-	border: #fff 1px solid;
-	max-width: 400px;
+/**	border: #fff 1px solid; **/
+	width: 50%;
 	float: left;
+	box-sizing:border-box;
+	padding: 50px;
+}
+.card p{
+	margin-top: 20px;
+}
+.card:first-child{
+	background: rgba(0,0,0,0.10);
+}
+.card:nth-child(2){
+	background-color: rgba(0,0,0,0.14);
+}
+.card:nth-child(3){
+	background-color: rgba(0,0,0,0.18);
+}
+.card:nth-child(4){
+	background-color: rgba(0,0,0,0.22);
+}
+.card:nth-child(5){
+	background-color: rgba(0,0,0,0.26);
+}
+.card:nth-child(6){
+	background-color: rgba(0,0,0,0.30);
+}
+.footer_content{
+	background: #444;
+	color: #fff;
+	padding: 80px;
+}
+.footer_content ul{
+	width: 60%;
 	margin: 0 auto;
+	text-align: center;
+}
+.footer_content li{
+	display: inline-block;
+	padding: 0 10px;
+}
+.main_body{
+	background-image: url("15.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+#side_bar{
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	right: -300px;
+	bottom: 0;
+	width: 300px;
+}
+#side_bar a{
+	display: inline-block;
+	padding: 30px;
+}
+#side_bar li:hover{
+	background-color:#456;
+}
+#mask{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.3);
+	display: none;
 }
